@@ -1,0 +1,24 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "The Restaurant project - ODIN-Javascript",
+  "private": true,  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "nodemon -e js,css,html -x \"npm run build\" --ignore dist/"
+  },
+  "keywords": [
+    "restaurant",
+    "odin",
+    "project",
+    "javascript"
+  ],
+  "author": "Henry Mukomba Kirya",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
+

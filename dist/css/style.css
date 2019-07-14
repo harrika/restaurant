@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+body {
+	background-color: #f7eeee;
+	color: #352a2a;
+	font-family: 'Open Sans', sans-serif;
+}
+#banner {
+	margin-bottom: 20px ;
+	/*background-image: linear-gradient(135deg,
+				rgba(62,19,19,0.8) 0%,
+				rgba(62,19,19,0) 80%),
+				"url('japan.jpg')";	*/
+	background-size: cover;
+	border-bottom: 5px solid #9c2e2e;
+}
+
+/*#content {
+   position: relative;
+   text-align: center;
+   color: white;
+ }*/
+/*
+ img {
+ 	 position: absolute;
+ }*/
+
+/*#btext {
+   position: absolute;
+   bottom: 88px;
+   left: 46px;
+ }*/
+
+.container {
+	margin-top: 20px;
+}
+
+#buttons button {
+	background-color: #423a8e;
+	color: #f2dacc;	
+}
+#buttons button:hover {
+	background-color: #827cbd;
+	color: #fff;	
+}
+#buttons {
+	margin-left: 30px;
+}
+
+#btext h3 {
+	color: #423a8e;
+	/*font-size: 50px;*/
+}
