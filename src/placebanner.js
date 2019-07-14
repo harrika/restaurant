@@ -4,8 +4,8 @@ function placeBanner() {
 	bannerrow.setAttribute("id", "picrow");
 
 	//select a random image
-	var pics = ["japan","glass","omellete","stock","restaurant","bar","barbecue","coffee","cuisine","tender","toa"];
-	var nn = Math.floor(Math.random() * 11);
+	var pics = ["japan","glass","omellete","restaurant","barbecue","cuisine"];
+	var nn = Math.floor(Math.random() * 6);
 	var chosen = pics[nn]
 	var picname =  "pichas/"+chosen+".jpg";
 
